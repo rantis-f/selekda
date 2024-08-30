@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Blog</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="TechId" style="width: 40px;">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="admin-dashboard.html">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="blog-detail" id="blog-detail">
+            <!-- Detail blog akan dimuat di sini -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Copyright 2024 oleh Rantisi</p>
+        <div class="social-icons">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+
+
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const urlParams = new URLSearchParams(window.location.search);
+        const blogId = urlParams.get('id');
+    
+        fetch('db/db.json')
+            .then(response => response.json())
+            .then(data => {
+                const blog = data.find(b => b.id === blogId);
+                if (blog) {
+                    const blogDetail = document.getElementById('blog-detail');
+                    blogDetail.innerHTML = `
+                        <img src="${blog.image}" alt="${blog.title}">
+                        <h1>${blog.title}</h1>
+                        <p>${blog.content}</p>
+                        <p>${blog.author} | ${blog.date} | <span>${blog.views}</span> | <span>${blog.comments}</span></p>
+                    `;
+                } else {
+                    document.getElementById('blog-detail').innerHTML = '<p>Blog tidak ditemukan.</p>';
+                }
+            });
+    });
+    
+    </script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+[
+    {
+        "id": "1",
+        "title": "Teknologi",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "image": "images/image1.jpg",
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "author": "Andi",
+        "date": "Tanggal 17 Mei 2024",
+        "views": 60,
+        "comments": "Jumlah Komentar 1"
+    },
+    {
+        "id": "2",
+        "title": "Revolusi Industri 4.0",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "image": "images/image2.webp",
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "author": "Dita",
+        "date": "Tanggal 18 Mei 2024",
+        "views": 56,
+        "comments": "Jumlah Komentar 2"
+    },
+    {
+        "id": "3",
+        "title": "Dampak Teknologi",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "image": "images/image3.webp",
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "author": "Andi",
+        "date": "Tanggal 20 Mei 2024",
+        "views": 70,
+        "comments": "Jumlah Komentar 2"
+    },
+    {
+        "id": "4",
+        "title": "Virtual Reality",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "image": "images/image4.png",
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "author": "Dika",
+        "date": "Tanggal 21 Mei 2024",
+        "views": 56,
+        "comments": "Jumlah Komentar 2"
+    },
+    {
+        "id": "5",
+        "title": "Robot Pekerja",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "image": "images/image5.jpg",
+        "content": "Konten detail blog 2...",
+        "author": "Andi",
+        "date": "Tanggal 22 Mei 2024",
+        "views": 21,
+        "comments": "Jumlah Komentar 2"
+    },
+    {
+        "id": "6",
+        "title": "Artificial Intelligence",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "image": "images/image6.png",
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "author": "Dita",
+        "date": "Tanggal 30 Mei 2024",
+        "views": 45,
+        "comments": "Jumlah Komentar 2"
+    },
+    {
+        "id": "7",
+        "title": "Robor IO",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "image": "images/image7.jpg",
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "author": "Budi",
+        "date": "Tanggal 1 Juni 2024",
+        "views": 20,
+        "comments": "Jumlah Komentar 2"
+    },
+    {
+        "id": "8",
+        "title": "Pekerjan Tergantikan",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "image": "images/image8.jpg",
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "author": "Rita",
+        "date": "Tanggal 5 Juni 2024",
+        "views": 66,
+        "comments": "Jumlah Komentar 2"
+    }
+]
